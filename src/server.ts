@@ -1,4 +1,4 @@
-import Kernel from "./src/Kernel.js";
+import Kernel from "./Kernel.js";
 
 process.context = {};
 process.contextTimeouts = {};

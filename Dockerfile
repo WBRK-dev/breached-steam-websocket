@@ -45,6 +45,6 @@ ENV PORT=3000
 # exposed port
 EXPOSE 3000
 
-CMD [ "node", "." ]
+CMD [ "npm", "start" ]
 
 # exit

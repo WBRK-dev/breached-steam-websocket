@@ -1,12 +1,12 @@
 {
   "name": "breached-steam-websocket",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "type": "module",
   "scripts": {
-    "start": "build/",
+    "start": "node build/server.js",
     "build": "tsc",
-    "dev": "tsx index.ts"
+    "dev": "tsx ."
   },
   "keywords": [],
   "author": "",
